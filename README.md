@@ -1,1 +1,2 @@
-# Pokemon36-API
+# Practice Ajax with pokeapi
+Get the list of Pokemon from No.1 to No.36, show information from pokemon, change the background color based on the type of Pokemon (There are some pokemon that have 2 types but we will only use the first type.)

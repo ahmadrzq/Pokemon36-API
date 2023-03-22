@@ -54,3 +54,16 @@
     margin: 1em 0;
     width: 100%;
 }
+
+/* Responsive */
+@media all and (max-width:1023px){
+    .card {
+        width: 50% !important;
+    }
+}
+
+@media all and (max-width:767px){
+    .card {
+        width: 100% !important;
+    }
+}

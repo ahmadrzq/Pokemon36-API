@@ -21,9 +21,7 @@ async function getData() {
                 <img src="${detailPokemon.sprites.front_default}" alt="${
           detailPokemon.name
         }" />
-                <p>Type : <span>${detailPokemon.types
-                  .map((type) => type.type.name)
-                  .join(", ")}</span></p>
+                <p>Type : <span>${detailPokemon.types[0].type.name}</span></p>
             </div>
         </div>`;
     }
